@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="65.947">
+    <testcase classname="Login to e-comm , add items to wishlist and move cheapest item to  cart" name="Account Login" time="7.861">
+        <system-out><![CDATA[Given Customer opens URL....................................................passed
+And Customer Land on Home page..............................................passed
+When Mouse Hover sign in and clicks on sign in..............................passed
+When Enters credential to Login.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to e-comm , add items to wishlist and move cheapest item to  cart" name="View My wishlist" time="45.656">
+        <system-out><![CDATA[Given Customer refresh the page.............................................passed
+When search for a product and add to wishist................................passed
+Then view  my wishlist......................................................passed
+And find four selected items in my wishlist.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login to e-comm , add items to wishlist and move cheapest item to  cart" name="View My cart" time="12.176">
+        <system-out><![CDATA[Given Customer refresh the page.............................................passed
+And view  my wishlist.......................................................passed
+And find lowest price item and add to my cart...............................passed
+Then verify the item in my cart.............................................passed
+And view  my wishlist.......................................................passed
+And Clear Wishlist..........................................................passed
+And Sign out of the account.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
